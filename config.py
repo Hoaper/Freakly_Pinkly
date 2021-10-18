@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import os
 token = os.environ['freakly_pink_token']
 
+=======
+token = ''
+>>>>>>> 29dc978f37698ca07d31218d8880bbb2ef205fed
 
 import requests
 from bs4 import BeautifulSoup
