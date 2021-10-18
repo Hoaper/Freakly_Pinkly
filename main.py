@@ -21,10 +21,12 @@ while True:
 
 			if event.from_chat:
 				msg = event.message.text
-				if "[club207927627|@freakly_pinkly]" in msg[:29]:
+				if "[club207927627|@freakly_pinkly]" in msg[:31]:
 
-					msg = msg[30:]
-					msg_list = msg.split(" ")
+					msg = msg[32:]
+					raw_msg_list = msg.split(" ")
+
+					msg_list = [i for i in raw_msg_list if i != ""]
 
 					if msg_list[0] == "list":
 						if msg_list[1] == "modes":
