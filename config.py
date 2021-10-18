@@ -1,4 +1,4 @@
-token = 'a13720c4d07377141b453a1f43ff9b2c7c7f10cc55d5a419552ec5bddd380771444a101f64aaeda1ae921'
+token = ''
 
 import requests
 from bs4 import BeautifulSoup
